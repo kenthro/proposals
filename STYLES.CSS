@@ -7,8 +7,31 @@ body {
 h2 {
     border-bottom: 1px solid #000;
     font-weight: 600;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
 }
 .problem img {
     float: right;
     width: 200px;
+    border-radius: 5px;
+}
+.text {
+    margin-left: 2rem;
+}
+div.bar {
+    display: flex;
+    align-items: center;
+}
+div.total {
+    width: 500px;
+    height: 5px;
+    border-radius: 32px;
+    background-color: #a9a9a9;
+}
+div.ammassed {
+    height: 100%;
+    width: 80%;
+    border-radius: 32px;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
 }
