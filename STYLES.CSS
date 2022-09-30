@@ -10,4 +10,5 @@ h2 {
 }
 .problem img {
     float: right;
+    width: 200px;
 }
